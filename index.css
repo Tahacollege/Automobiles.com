@@ -1,0 +1,147 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: black;
+}
+.container{
+  border: 5px solid black;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr 1fr 1fr ;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.header{
+  grid-column: 1/ span 6;
+  background-color:rgb(44, 42, 42);
+  display: flex;
+}
+.contact{
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  margin-inline: 50px;
+  word-spacing: 10px;
+  color: rgb(180, 182, 115);
+  height:300px;
+  width: 1000px;
+  margin-left: 250px;
+  border-radius: 20px;
+  border: 5px solid seashell;
+  background-color:rgb(62, 57, 52);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  margin-top: 200px;
+}
+.headermenus{
+  margin-left: 300px;
+  align-self:flex-end;
+  cursor: pointer;
+  color: rgb(180, 182, 115);
+  font-size: 20px;
+  border-radius: 50px;
+  height: 20px;
+}
+.sidebar{
+  width: 150px;
+  grid-row: 2/ span 6;
+  background-color:rgb(44, 42, 42);
+  border-radius: 50px;
+  text-align: center;
+  color: rgb(180, 182, 115);
+}
+.items{
+  align-self: center;
+  justify-self: center;
+  margin-right: 10px;
+  text-align: center;
+  height: 300px;
+  border: 5px solid seashell;
+  background-color:azure;
+}
+.about{
+  align-self: center;
+  justify-self: center;
+  margin-right: 10px;
+  text-align: center;
+  width: 1800px;
+  border: 5px solid seashell;
+  background-color:azure;
+  text-transform: capitalize;
+  font-family:cursive;
+}
+.fotter{
+  grid-column: 1/ span 6;
+  height: 90px;
+  background-color:rgb(44, 42, 42);
+}
+.sidebarlogo {
+  width: 50px;
+  border-radius: 50px;
+}
+.sidebarbtn{
+  width: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+  height: 50px;
+  margin-left: 31px;
+  border-radius: 50px;
+}
+.homebtn{
+  margin-top: 90px;
+  cursor: pointer;
+  font-family:monospace;
+  font-weight: 900;
+  font-style: italic;
+  
+}
+.homeimg{
+  width: 40px;
+  border-radius: 60px;
+  vertical-align: middle;
+}
+.headerimg{
+  width:160px;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.fotterimagesinsta{
+  width: 100px;
+  height: 95px;
+  cursor: pointer;
+  margin-left: 600px;
+  position: absolute;
+  margin-top: -90px;
+  background-color: black;
+}
+.fotterimagesgithub{
+  width: 100px;
+  height: 90px;
+  position: absolute;
+  cursor: pointer;
+  margin-left: 1400px;
+  margin-top: -90px;
+  background-color: black;
+}
+.fotterimageslinkdin{
+  width: 100px;
+  height: 90px;
+  position: absolute;
+  cursor: pointer;
+  margin-left: 1000px;
+  margin-top: -90px;
+  background-color: black;
+}
+p{
+  color: rgb(180, 182, 115);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.items:hover{
+  box-shadow: 2px 1px 50px 2px azure;
+  height: 330px;
+  text-transform: capitalize;
+  font-size: large;
+}
